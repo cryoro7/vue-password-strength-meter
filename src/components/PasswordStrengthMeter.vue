@@ -1,5 +1,5 @@
 <template>
-  <div class="Password">
+  <div>
     <div
       v-if="!strengthMeterOnly"
       class="Password__group"
@@ -422,8 +422,8 @@
   }
 
   .Password__field {
-    background-color: #f1f1f1;
-    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    border: 0px;
     border-radius: 2px;
     box-sizing: border-box;
     font-size: 14px;
