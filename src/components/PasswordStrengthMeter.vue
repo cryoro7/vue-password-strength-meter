@@ -1,5 +1,5 @@
 <template>
-  <div class="Password">
+  <div>
     <div
       v-if="!strengthMeterOnly"
       class="Password__group"
