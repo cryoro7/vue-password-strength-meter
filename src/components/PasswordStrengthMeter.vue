@@ -422,8 +422,9 @@
   }
 
   .Password__field {
-    background-color: #f1f1f1;
-    border: 1px solid #f1f1f1;
+    background-color: #fffff;
+    border: 0px
+    border-bottom: 1px solid #afafaf;;
     border-radius: 2px;
     box-sizing: border-box;
     font-size: 14px;
