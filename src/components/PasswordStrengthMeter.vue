@@ -15,6 +15,7 @@
         :disabled="disabled"
         :autocomplete="autocomplete"
         v-bind:value="value"
+        style="outline-color: #CEE6FF;"
         @input="evt => emitValue('input', evt.target.value)"
         @blur="evt => emitValue('blur', evt.target.value)"
         @focus="evt => emitValue('focus', evt.target.value)"
@@ -427,7 +428,7 @@
     border-bottom: 1px solid #afafaf;;
     border-radius: 2px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
     padding: 13px;
     width: 100%;
   }
